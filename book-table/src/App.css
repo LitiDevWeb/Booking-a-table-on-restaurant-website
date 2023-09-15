@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+}
+
+.flex-row{
+  display: inline-flex;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-row-center{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-column{
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: left;
+  margin-right: 200px;
+  margin-top: 20px;
+}
+
+.navLink{
+  padding-left: 33px;
+}
+
+.app-header{
+  margin-bottom: 10px;
+}
+
+.app-about-us{
+  height: 350px;
+  width: 100%;
+  background-color: #495E57;
+}
+
+.app-specials{
+  padding-left: 70px;
+  height: 500px;
+  width: 100%;
+  margin-top: 110px;
+}
+
+.app-button{
+  margin-left: 70px;
+  width: 210px;
+  height: 45px;
+  background-color: #F4CE14;
+  border-radius: 16px;
+  font-family: 'Karla';
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+}
+
+.section-title{
+  font-family: 'Karla';
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.display-title{
+  padding-left: 70px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+  font-family: 'Markazi Text';
+  font-size:  64px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #F4CE14;
+}
+
+.display-title-black{
+  font-family: 'Markazi Text';
+  font-size:  64px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.subtitle{
+  padding-left: 70px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+  font-family: 'Markazi Text';
+  font-size:  40px;
+  line-height: 20px;
+  font-weight: 300;
+  color: white;
+}
+
+.lead-text{
+  padding-left: 70px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+  font-family: 'Markazi Text';
+  font-size:  18px;
+  line-height: 1px;
+  color: white;
+}
+
+.hero-image{
+  border-radius: 16px;
+}
+
+.menu-image{
+  border-radius: 16px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.menu-header{
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.menu-item{
+  height: 380px;
+  width: 300px;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-left: 10px;
+  margin-right: 20px;
+  background-color: #EDEDED;
+}
+
+.menu-desc{
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.paragraph{
+  text-align: center;
+  font-family: 'Karla';
+  font-size: 18;
+}
+
+.paragraph-bold{
+  text-align: left;
+  font-family: 'Karla';
+  font-size: 18;
+  font-weight: 800;
+}
+
+.text-price{
+  text-align: right;
+  font-family: 'Karla';
+  font-size: 16;
+  color: #EE9972;
+  margin-right: auto;
+  margin-left: 100px;
+}
+
+a:link{
+  text-decoration: none;
+  color: #333333;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #EE9972;
+}
+
